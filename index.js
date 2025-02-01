@@ -6,8 +6,8 @@ const users = [];
 
 const server = http.createServer((req, res) => {
     console.log("Inside Server");
-    // res.writeHead(404);
-    // res.end();
+    res.writeHead(404);
+    res.end();
 });
 
 server.listen(PORTs, () => {
